@@ -1,0 +1,17 @@
+label {
+        border: 1px solid #eaeaea;
+        display: inline-block;
+        margin: 0px 0px -1px 0px;
+        padding: 4px;
+}
+input[name="control"], .slide {
+  display: none;
+}
+input[name="control"]:checked + .slide{
+  display: block;
+}
+.slide {
+  overflow: hidden;
+  border: 1px solid #eaeaea;
+  padding: 8px;
+}
